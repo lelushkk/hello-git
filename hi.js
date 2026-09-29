@@ -1,1 +1,1 @@
-git init
+console.log("Hello")
