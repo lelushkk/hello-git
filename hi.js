@@ -1,2 +1,6 @@
-console.log("Пробую вывод в браузер")
-alert("Я - JavaScript")
+
+let name = 'John';
+let admin = name;
+alert(admin);
+let OurPlanet = 'Earth';
+let = CurrentUser = 'Oleg';
