@@ -1,4 +1,4 @@
-let UserLogin = prompt('Введите логин')
+/*let UserLogin = prompt('Введите логин')
 if (UserLogin == 'Админ'){
     let password = prompt('Введите пароль')
     if(password == 'Я главный'){
@@ -12,4 +12,13 @@ if (UserLogin == 'Админ'){
     alert('Отменено')
 } else {
     alert('Я вас не знаю')
-}
+}*/
+
+let num1 = 10,
+    num2 = 20,
+    result;
+result ??= num2 ?? num1
+
+alert(result);
+
+
