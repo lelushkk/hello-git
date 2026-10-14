@@ -12,22 +12,10 @@ if (UserLogin == 'Админ'){
     alert('Отменено')
 } else {
     alert('Я вас не знаю')*/
-
-   const number = +prompt('Введите числол между 0 и 3')
-   switch(number){
-    case 0:
-        alert('Вы ввели число 0');
-        break;
-    case 1:
-        alert('Вы ввели число 1');
-        break;
-    case 2:
-    case 3:
-        alert('Вы ввели число 2, а может 3');
-        break;
-    default:
-        alert('Вы ввели число не из этого диапозона!')
-   }
-
-
-
+function now(a,n){
+   let number = a ** n
+   alert(number)
+}
+let s = prompt('Введите число возводимое в степень');
+let n = prompt('Введите степень в которую возводится число');
+now(s,n);
